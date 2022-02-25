@@ -36,3 +36,10 @@
 // var  palindrome = palindrome('racecar'); 
 // madam also palindrome string 
 // console.log(palindrome);
+
+// 3: REVERSE A INTEGER 
+// var reverseInt = (int)=>{
+//     var newreverseInt = int.toString().split('').reverse().join('');
+//     return parseInt(newreverseInt) * Math.sign(int);
+// }
+// console.log(reverseInt(123));
