@@ -1,13 +1,13 @@
 // 1 : revesre a string 
 // old way 
-var reverseString = (str)=>{
-    return str
-        .split('')
-        .reverse()
-        .join('');
-}
-var reverseString = reverseString('rakibul');
-console.log(reverseString);
+// var reverseString = (str)=>{
+//     return str
+//         .split('')
+//         .reverse()
+//         .join('');
+// }
+// var reverseString = reverseString('rakibul');
+// console.log(reverseString);
 // var reverseString = (str)=>{
 //     var revString = '';
 //     str.split('').forEach(char=>revString = char + revString);
@@ -22,3 +22,17 @@ console.log(reverseString);
 // };
 // var reverseString = reverseString('akib');
 // console.log(reverseString);
+
+// 2: VALIDATE A PALINDROME 
+// return true if palindrome and false if not 
+
+// var palindrome = (str)=>{
+//     var newPalindrome = str
+//                         .split('')
+//                         .reverse()
+//                         .join('');
+//     return newPalindrome === str;
+// }
+// var  palindrome = palindrome('racecar'); 
+// madam also palindrome string 
+// console.log(palindrome);
