@@ -1,4 +1,4 @@
-// 1 : revere a string 
+// 1 : revesre a string 
 // old way 
 var reverseString = (str)=>{
     return str
