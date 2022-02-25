@@ -43,3 +43,13 @@
 //     return parseInt(newreverseInt) * Math.sign(int);
 // }
 // console.log(reverseInt(123));
+
+//  4: CAPITALIZE LETTERS
+// var capitalizeLetter = (str)=>{
+//     return str
+//             .toLowerCase()
+//             .split(' ')
+//             .map(word=>word[0].toUpperCase() + word.substring(1))
+//             .join(' ');
+// }
+// console.log(capitalizeLetter('i loVe javascript'));
