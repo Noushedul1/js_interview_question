@@ -74,16 +74,22 @@
 // console.log(fizzbuzz());
 
 // 6: COUNT MAX CHARACTER 
-var charcount = (str)=>{
-    var charMap = {};
-    str.split('').forEach(char=>{
-        if(charMap[char]){
-            charMap[char]++;
-        }
-        else{
-            charMap[char] = 1;
-        }
-    });
-    console.log(charMap);
+// var charcount = (str)=>{
+//     var charMap = {};
+//     str.split('').forEach(char=>{
+//         if(charMap[char]){
+//             charMap[char]++;
+//         }
+//         else{
+//             charMap[char] = 1;
+//         }
+//     });
+//     console.log(charMap);
+// }
+// console.log(charcount('javascript'));
+
+// 7: ADD ALL NUMBERS 
+var addAll = (...numbers)=>{
+    return numbers.reduce((total,num)=>total+num,0);
 }
-console.log(charcount('javascript'));
+console.log(addAll(1,2,3,4,5));
