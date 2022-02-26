@@ -89,7 +89,16 @@
 // console.log(charcount('javascript'));
 
 // 7: ADD ALL NUMBERS 
-var addAll = (...numbers)=>{
-    return numbers.reduce((total,num)=>total+num,0);
-}
-console.log(addAll(1,2,3,4,5));
+// var addAll = (...numbers)=>{
+//     return numbers.reduce((total,num)=>total+num,0);
+// }
+// console.log(addAll(1,2,3,4,5));
+
+// 8: EVEN AND ODD SUMS 
+// var evenOddSum = (arr)=>{
+//     var evenSum = 0;
+//     var oddSum = 0;
+//     arr.forEach(num=>(num % 2 === 0 ? (evenSum += num) : (oddSum += num)));
+//     return [evenSum, oddSum];
+// }
+// console.log(evenOddSum([50,60,60,45,71]));
